@@ -113,22 +113,6 @@ ul {
   padding-left: 2rem;
 }
 
-ol,
-ul,
-dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-dt {
-  font-weight: 700;
-}
-
-dd {
-  margin-bottom: 0.5rem;
-  margin-left: 0;
-}
-
 blockquote {
   margin: 0 0 1rem;
 }
@@ -6806,6 +6790,7 @@ textarea.form-control-lg {
 
 .w-100 {
   width: 100% !important;
+  aspect-ratio: 1300/601;
 }
 
 .w-auto {

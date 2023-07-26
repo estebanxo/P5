@@ -33,14 +33,17 @@
 	font-style: normal;
 	font-display: fallback;
 }
+
 body {
 	max-width: 1920px;
 	margin: auto;
 }
+
 * {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -75,6 +78,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	aspect-ratio: 20/20;
 }
 
 #about {
@@ -104,8 +108,9 @@ body {
 
 .picture img {
 	width: 100%;
-
+	aspect-ratio: 560/558;
 }
+
 #about-me {
 	flex: 2
 }
@@ -131,9 +136,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
