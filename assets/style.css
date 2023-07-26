@@ -56,6 +56,9 @@ body {
 	align-items: center;
 }
 
+.w-100 {
+	aspect-ratio: 1300/601;
+}
 .top-header .name {
 	font-size: 26px;
 }
