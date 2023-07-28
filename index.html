@@ -4,27 +4,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina Carducci</title>
 	<meta name="robots" content="index">
-	<meta name="description" content="Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, figer au travers de la photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre." />
+	<meta name="description" content="Portfolio de Nina Carducci, photographe basé à Bordeaux, présentation de quelques uns de mes projets." />
 
 	<!-- Schema.org meta for Google+ -->
 	<meta itemprop="name" content="Nina Carducci" />
-	<meta itemprop="description" content="Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, figer au travers de la photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre." />
+	<meta itemprop="description" content="Portfolio de Nina Carducci, photographe basé à Bordeaux, présentation de quelques uns de mes projets." />
 	<meta itemprop="image" content="https://raw.githubusercontent.com/estebanxo/P5/main/assets/images/nina.webp" />
 
 	<!-- Twitter summary card with large image must be at least 280x150px -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@skyminds" />
-	<meta name="twitter:creator" content="@skyminds" />
+	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Nina Carducci" />
-	<meta name="twitter:description" content="Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, figer au travers de la photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre." />
+	<meta name="twitter:description" content="Portfolio de Nina Carducci, photographe basé à Bordeaux, présentation de quelques uns de mes projets." />
 	<meta name="twitter:image" content="https://raw.githubusercontent.com/estebanxo/P5/main/assets/images/nina.webp" />
 
 	<!-- Open Graph meta (Facebook, Linkedin) -->
 	<meta property="og:title" content="Nina Carducci" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://estebanxo.github.io/P5/"/>
-	<meta property="og:description" content="Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, figer au travers de la photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre." />
+	<meta property="og:description" content="Portfolio de Nina Carducci, photographe basé à Bordeaux, présentation de quelques uns de mes projets." />
 	<meta property="og:image" content="https://raw.githubusercontent.com/estebanxo/P5/main/assets/images/nina.webp" />
+
+	<!-- <div itemscope itemtype="https://schema.org/Store">
+		<span itemprop="name">Ma Maroquinerie</span>
+		<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+		   <p>Notre adresse:</p>
+		   <span itemprop="streetAddress">rue des Fleurs</span>,
+		   <span itemprop="postalCode">06210</span>
+		   <span itemprop="addressLocality">Mandelieu</span>,
+		   <span itemprop="addressCountry" itemscope itemtype="https://schema.org/Country">
+			  <span itemprop="name">France</span>
+		   </span>
+		</div>
+	</div> -->
+	<time itemprop="openingHours" datetime="Tu,Th 16:00-20:00">Les jeudis et vendredis de 16h à 20h</time>
 
 	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
 	<link rel="preload" href="./assets/style.css" as="style">
@@ -37,7 +49,7 @@
 <body>
 	<header>
 		<nav class="top-header">
-			<h1 class="name">Nina Carducci</h1>
+			<h1 class="name" itemprop="name">Nina Carducci</h1>
 			<div class="nav">   
 				<ul>
 					<li><a href="#about">À propos</a></li>
@@ -176,6 +188,11 @@
 			</div>
 			<div class="picture right">
 				<img src="./assets/images/camera.webp" alt="" loading="lazy">
+				<div class="coordinated">
+					<h3>contact</h3>
+					<p>68 avenue Alsace-Lorraine, 33200 Bordeaux</p>
+					<p>Je réponds au téléphone du lundi au vendredi de 10 h à 19 h - 05 56 67 78 89</p>
+				</div>
 			</div>
 		</div>
 		<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
