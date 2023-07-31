@@ -27,10 +27,10 @@
 	<meta property="og:image" content="https://raw.githubusercontent.com/estebanxo/P5/main/assets/images/nina.webp" />
 
 	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
-	<link rel="preload" href="./assets/style.min.css" as="style">
+	<link rel="preload" href="./assets/style.css" as="style">
 
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.min.css">
+	<link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
 	<header>
@@ -160,6 +160,13 @@
 	<footer id="contact">
 		<div class="container">
 			<div class="form-container">
+				<div  itemscope itemtype="https://schema.org/Organization" class="coordinated">
+					<h3>coordonnées</h3>
+					<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+						<p><span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>, <span itemprop="postalCode">33200</span><span itemprop="addressLocality">Bordeaux</span></p>
+					</div>
+					<p itemprop="openingHours" content="Tu,Th 10:00-19:00">Je réponds au téléphone du lundi au vendredi de 10 h à 19 h - <span class="tel" itemprop="telephone">05 56 67 78 89</span></p>
+				</div>
 				<h2>Une question ? Une demande de devis ?</h2>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form method="post">
@@ -171,13 +178,6 @@
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
 					<input type="submit" value="Envoyer">
 				</form>
-				<div  itemscope itemtype="https://schema.org/Organization" class="coordinated">
-					<h3>coordonnées</h3>
-					<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-						<p><span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>, <span itemprop="postalCode">33200</span><span itemprop="addressLocality">Bordeaux</span></p>
-					</div>
-					<p itemprop="openingHours" content="Tu,Th 10:00-19:00">Je réponds au téléphone du lundi au vendredi de 10 h à 19 h - <span itemprop="telephone">05 56 67 78 89</span></p>
-				</div>
 			</div>
 			<div class="picture right">
 				<img src="./assets/images/camera.webp" alt="" loading="lazy">
