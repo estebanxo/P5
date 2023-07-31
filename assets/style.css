@@ -57,11 +57,7 @@ body {
 }
 
 .coordinated {
-	margin-top: 30px;
 	width: 100%;
-}
-.coordinated h3 {
-	margin-bottom: 20px;
 }
 
 .w-100 {
@@ -255,8 +251,8 @@ body {
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
-	padding-inline: 100px;
-	padding-block: 100px;
+	padding-inline: 70px;
+	padding-block: 30px;
 }
 
 #contact .container {
@@ -274,6 +270,7 @@ body {
 }
 .form-container {
 	flex : 2;
+	padding: 20px;
 }
 .form-container h2{
 	font-size: 1.75rem;
