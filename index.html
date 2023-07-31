@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina Carducci</title>
 	<meta name="robots" content="index">
@@ -24,32 +25,16 @@
 	<meta property="og:description" content="Portfolio de Nina Carducci, photographe basé à Bordeaux, présentation de quelques uns de mes projets." />
 	<meta property="og:image" content="https://raw.githubusercontent.com/estebanxo/P5/main/assets/images/nina.webp" />
 
-	<!-- <div itemscope itemtype="https://schema.org/Store">
-		<span itemprop="name">Ma Maroquinerie</span>
-		<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-		   <p>Notre adresse:</p>
-		   <span itemprop="streetAddress">rue des Fleurs</span>,
-		   <span itemprop="postalCode">06210</span>
-		   <span itemprop="addressLocality">Mandelieu</span>,
-		   <span itemprop="addressCountry" itemscope itemtype="https://schema.org/Country">
-			  <span itemprop="name">France</span>
-		   </span>
-		</div>
-	</div> -->
-	<time itemprop="openingHours" datetime="Tu,Th 16:00-20:00">Les jeudis et vendredis de 16h à 20h</time>
-
 	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
-	<link rel="preload" href="./assets/style.css" as="style">
+	<link rel="preload" href="./assets/style.min.css" as="style">
 
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.css" rel="preload">
-	
-	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./assets/style.min.css">
 </head>
 <body>
 	<header>
 		<nav class="top-header">
-			<h1 class="name" itemprop="name">Nina Carducci</h1>
+			<h1 class="name">Nina Carducci</h1>
 			<div class="nav">   
 				<ul>
 					<li><a href="#about">À propos</a></li>
@@ -186,12 +171,14 @@
 					<input type="submit" value="Envoyer">
 				</form>
 			</div>
-			<div class="picture right">
+			<div itemscope itemtype="https://schema.org/Organization" class="picture right">
 				<img src="./assets/images/camera.webp" alt="" loading="lazy">
 				<div class="coordinated">
 					<h3>contact</h3>
-					<p>68 avenue Alsace-Lorraine, 33200 Bordeaux</p>
-					<p>Je réponds au téléphone du lundi au vendredi de 10 h à 19 h - 05 56 67 78 89</p>
+					<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+						<p><span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>, <span itemprop="postalCode">33200</span><span itemprop="addressLocality">Bordeaux</span></p>
+					</div>
+					<p itemprop="openingHours" datetime="Tu,Th 10:00-19:00">Je réponds au téléphone du lundi au vendredi de 10 h à 19 h - <span itemprop="telephone">05 56 67 78 89</span></p>
 				</div>
 			</div>
 		</div>
